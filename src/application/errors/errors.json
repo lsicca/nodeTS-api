@@ -1,0 +1,34 @@
+{
+	"AUTHTOKEN_MISSING": {
+		"httpCode": 401,
+		"message": "The identification token is missing"
+	},
+	"AUTHTOKEN_EXPIRED": {
+		"message": "The identification token is expired",
+		"httpCode": 401
+	},
+	"AUTHTOKEN_INVALID": {
+		"message": "The identification token is invalid",
+		"httpCode": 401
+	},
+	"MISSING_FIELD": {
+		"httpCode": 400,
+		"message": "A required field is missing"
+	},
+	"INVALID_FIELD": {
+		"httpCode": 422,
+		"message": "A required field is invalid"
+	},
+	"FORBIDDEN_FIELD": {
+		"httpCode": 422,
+		"message": "A forbidden field is passed"
+	},
+	"FORBIDDEN": {
+		"httpCode": 403,
+		"message": "Access is forbidden"
+	},
+	"CONFLICT": {
+		"httpCode": 409,
+		"message": "A conflict happened"
+	}
+}

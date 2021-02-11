@@ -1,0 +1,10 @@
+{
+	"CREDENTIALS_INVALID": {
+		"httpCode": 400,
+		"message": "Invalid creadentials"
+	},
+	"USER_INACTIVE": {
+		"httpCode": 401,
+		"message": "Inactive user"
+	}
+}

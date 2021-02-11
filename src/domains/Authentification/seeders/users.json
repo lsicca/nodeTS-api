@@ -1,0 +1,23 @@
+[
+	{
+		"id": "3df5c10d-3f48-4d69-acdd-35636ea6aca1",
+		"email": "user@isicca.fr",
+		"password": "$2b$10$NrzJ315UBPISLOEvNOivN.Pi/0rx2rtfewjzVyWSnbo2pCy0kRNUm",
+		"firstName": "User",
+		"lastName": "Sicca",
+		"role": "user",
+		"passwordToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAc3F1YWRlYXN5LmNvbSIsImlhdCI6MTU4OTgyNTQ5NiwiZXhwIjoxOTA1MTg1NDk2fQ.kCsTx834aFmXqZQ2ooUa-kgfuCiV5DIxuLeVV5Avupk",
+    "createdAt": "2021-02-10T14:23:39.028Z",
+		"updatedAt": "2021-02-10T14:23:39.028Z"
+  },
+	{
+		"id": "3df5c10d-3f48-4d69-acdd-35636ea6aca2",
+		"email": "admin@isicca.fr",
+		"password": "$2b$10$NrzJ315UBPISLOEvNOivN.Pi/0rx2rtfewjzVyWSnbo2pCy0kRNUm",
+		"firstName": "Admin",
+		"lastName": "Sicca",
+		"role": "admin",
+    "createdAt": "2021-02-10T14:24:39.028Z",
+		"updatedAt": "2021-02-10T14:24:39.028Z"
+	}
+]

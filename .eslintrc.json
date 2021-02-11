@@ -1,0 +1,107 @@
+{
+	"plugins": ["prettier", "@typescript-eslint"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"airbnb-base",
+		"prettier",
+		"prettier/@typescript-eslint"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"env": {
+		"node": true
+	},
+	"globals": {
+		"document": false,
+		"navigator": false,
+		"window": false,
+		"describe": true,
+		"it": true,
+		"TEST_BACKEND_APP": true,
+		"should": true,
+		"beforeEach": true,
+		"afterEach": true,
+		"before": true,
+		"after": true
+	},
+	"rules": {
+		"prettier/prettier": "warn",
+		"no-console": [1],
+		"semi": ["error", "always"],
+		"no-mixed-spaces-and-tabs": "error",
+		"no-eval": "error",
+		"block-spacing": ["error", "always"],
+		"comma-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"camelcase": [
+			"error",
+			{
+				"properties": "never"
+			}
+		],
+		"curly": ["error", "all"],
+		"no-unused-expressions": [
+			"error",
+			{
+				"allowShortCircuit": true,
+				"allowTernary": true,
+				"allowTaggedTemplates": true
+			}
+		],
+		"no-unused-vars": [
+			"error",
+			{
+				"vars": "all",
+				"args": "none",
+				"ignoreRestSiblings": true
+			}
+		],
+		"func-call-spacing": ["error", "never"],
+		"import/no-extraneous-dependencies": ["off"],
+		"max-len": [
+			"warn",
+			120,
+			2,
+			{
+				"ignoreUrls": true,
+				"ignoreComments": false,
+				"ignoreRegExpLiterals": true,
+				"ignoreStrings": true,
+				"ignoreTemplateLiterals": true
+			}
+		],
+		"brace-style": [
+			"error",
+			"1tbs",
+			{
+				"allowSingleLine": false
+			}
+		],
+		"import/extensions": ["warn", { "js": "never", "interface":"always", "schema":"always", "json": "always" }],
+		"import/no-unresolved": "off",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"import/prefer-default-export": "off",
+		"no-case-declarations": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/interface-name-prefix": "off",
+		"no-param-reassign": [0],
+		"no-ex-assign": [0],
+		"global-require": [0],
+		"import/no-dynamic-require": [0],
+		"jsdoc/valid-types": 0,
+		"@typescript-eslint/ban-ts-comment": 0
+	},
+	"overrides": [],
+	"settings": {}
+}

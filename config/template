@@ -1,0 +1,22 @@
+#App
+LOG_CONSOLE = true
+CORS_ORIGIN = '["http://localhost:3000", "https://localhost:3000"]'
+
+#Database
+DB_TYPE = "postgres"
+DB_NAME = ""
+DB_USER = ""
+DB_PASSWORD = ""
+DB_HOST = ""
+DB_PORT = 
+
+#JWT tokens
+JWT_KEY = ""
+
+#Amazon S3
+S3_ID = ""
+S3_KEY = ""
+S3_BUCKET = ""
+
+#SWAGGER
+SWAGGER_ENABLED = true

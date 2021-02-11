@@ -1,0 +1,13 @@
+{
+	"APP_PORT": 3001,
+	"APP_TITLE": "NodeTS API",
+	"APP_DESCRIPTION": "Boilerplate project for Apis with Node, Typescript, Clean architecture & DDD",
+	"APP_VERSION": "1.0",
+
+	"JWT_EXPIRATIONTIME_HOUR": 1,
+	"JWT_PASSWORD_EXPIRATIONTIME_HOUR": 1,
+
+	"DB_LOG": false,
+
+	"USER_PASSWORD_MIN_SIZE": 8
+}

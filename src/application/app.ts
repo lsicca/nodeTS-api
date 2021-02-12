@@ -62,7 +62,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 
 app.use(
 	jwt({ secret: String(process.env.JWT_KEY), algorithms: ['HS256'] }).unless({
-		path: [/\//, /auth/, /swagger.json/],
+		path: [/auth/, /swagger.json/],
 	}),
 );
 
